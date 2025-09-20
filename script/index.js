@@ -9,7 +9,7 @@ function rollDice() {
     {
         const value = Math.ceil(Math.random() * 6);
         values.push(value);
-        images.push(`<img src="images/${value}.png">`)
+        images.push(`<img src="images/${value}.png" alt="dices">`)
     }
     diceResult.textContent = `dice ${values.join(', ')}`;
 
